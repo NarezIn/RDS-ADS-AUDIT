@@ -1,0 +1,29 @@
+# Python virtualenv
+.venv/
+venv/
+
+# IDE
+.idea/
+.vscode/
+
+# OS
+.DS_Store
+
+# Python bytecode / caches
+__pycache__/
+*.py[cod]
+*.egg-info/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# CatBoost training logs (regenerated on each fit)
+catboost_info/
+
+# Notebook backups created during edits
+*.ipynb.bak
+*.ipynb.bak2
+*.bak
+
+# Kaggle competition data and submission files - not redistributed via this repo
+*.csv
